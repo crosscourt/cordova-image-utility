@@ -44,4 +44,4 @@ var ImageUtility = {
 
 
 
-module.exports = ExifUtil;
+module.exports = ImageUtility;
