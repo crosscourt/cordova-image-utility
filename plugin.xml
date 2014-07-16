@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="org.crosscourt.imageutility" version="0.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ImageUtility</name>
+
+    <js-module name="ImageUtility" src="www/imageUtility.js">
+        <clobbers target="cordova.plugins.ImageUtility" />
+    </js-module>
+
+    <platform name="ios">
+        <config-file parent="/*" target="config.xml">
+            <!--The feature's name attribute should match what you specify as the JavaScript exec call's service parameter.-->
+            <feature name="ImageUtility">
+                <param name="ios-package" value="ImageUtility" />
+            </feature>
+        </config-file>
+        <header-file src="src/ios/imageUtility.h" />
+        <source-file src="src/ios/imageUtility.m" />
+    </platform>
+    
+</plugin>
