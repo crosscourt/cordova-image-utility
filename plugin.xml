@@ -13,8 +13,8 @@
                 <param name="ios-package" value="ImageUtility" />
             </feature>
         </config-file>
-        <header-file src="src/ios/imageUtility.h" />
-        <source-file src="src/ios/imageUtility.m" />
+        <header-file src="src/ios/ImageUtility.h" />
+        <source-file src="src/ios/ImageUtility.m" />
     </platform>
     
 </plugin>
