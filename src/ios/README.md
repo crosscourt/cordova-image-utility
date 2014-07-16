@@ -7,6 +7,6 @@
     |   |   |-- ImageUtility.m
     |   |   |-- README.md
 
-- src/ios/exifutil.h
-- src/ios/exifutil.m
+- src/ios/ImageUtility.h
+- src/ios/ImageUtility.m
 - src/ios/README.md

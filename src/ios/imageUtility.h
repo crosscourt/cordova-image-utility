@@ -19,10 +19,8 @@
 
 #import <Cordova/CDV.h>
 
-@interface ImageUtlilty : CDVPlugin
+@interface ImageUtility : CDVPlugin
 
 - (void) getExifData:(CDVInvokedUrlCommand*)command;
-//- (void) stripGeoData:(CDVInvokedUrlCommand*)command;
-//- (NSDictionary*) getMiscMetaDataFromInfoDict: (NSDictionary*) info;
 
 @end

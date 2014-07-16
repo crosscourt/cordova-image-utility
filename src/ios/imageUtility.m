@@ -17,7 +17,7 @@
  under the License.
  */
 
-#import "imageUtility.h"
+#import "ImageUtility.h"
 #import <ImageIO/ImageIO.h>
 #import <AssetsLibrary/AssetsLibrary.h>
 
